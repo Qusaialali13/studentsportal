@@ -18,10 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+}
+
+.bg-main-red{
+  background: linear-gradient(180deg, rgba(156, 33, 36, 0.88) 0%, #9D2325 100%);
+
 }
