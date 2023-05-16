@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
         <div className="hidden lg:flex w-full ">
           <TopNav />
         </div>
-        <div className="flex w-full ">
+        <div className="flex w-full min-h-screen h-full fixed top-[50px] lg:top-[60px]">
           <Component {...pageProps} />
           <RightNav />
         </div>

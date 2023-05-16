@@ -6,6 +6,7 @@ import Image from "next/image";
 import Cookies from "js-cookie";
 import Link from "next/link";
 import ThemeToggler from "@/ThemeToggler";
+import Dropdown from "./navItemDropdown";
 
 export default function RightNav() {
   return (
@@ -100,9 +101,9 @@ export default function RightNav() {
                 <div className="w-full flex items-center justify-center max-h-[70px] h-[60px] bg-[#304051] dark:bg-[#C87070]">
                   <span className="text-3xl ">HU&apos;s portal</span>
                 </div>
-                <div className="h-full w-full px-[23px] py-[48px]">
-                  <div className=" grid grid-rows w-full h-full justify-end text-right gap-[20px]">
-                    <div className="flex items-center gap-3">
+                <div className="h-full w-full  py-[48px] ">
+                  <div className=" grid grid-rows w-full h-full  text-right gap-[15px] lg:w-[315px] lg:max-w-[315px]">
+                    <div className="flex items-center justify-end gap-3 px-[23px] w-full">
                       <div className="grid grid-rows text-right">
                         <span className="text-base text-white">
                           قصي جميل عادل العلي
@@ -120,7 +121,7 @@ export default function RightNav() {
                     </div>
                     <Link
                       href="/"
-                      className="flex items-center gap-2 justify-end"
+                      className="flex items-center gap-2 justify-end px-[23px] w-full hover:bg-[#304051] dark:hover:bg-[#3d4d5e] h-10"
                     >
                       <span className="text-base text-white">
                         الصفحة الرئيسية
@@ -135,30 +136,17 @@ export default function RightNav() {
                         <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
                       </svg>
                     </Link>
-                    <Link
-                      href="/"
-                      className="flex items-center gap-2 justify-end"
-                    >
-                      <span className="text-base text-white">
-                        الصفحة الرئيسية
-                      </span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="22"
-                        height="22"
-                        viewBox="0 0 576 512"
-                        fill="#fff"
-                      >
-                        <path d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zm64 320H64V320c35.3 0 64 28.7 64 64zM64 192V128h64c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64v64H448zm64-192c-35.3 0-64-28.7-64-64h64v64zM288 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
-                      </svg>
-                    </Link>
+
+                    <Dropdown />
                   </div>
                 </div>
               </div>
             </div>
 
-            <Disclosure.Panel className="lg:hidden flex  w-full justify-end">
-              <div className="grid grid-cols-1 h-full space-y-3  justify-center p-3 bg-[#304051] dark:bg-[#C87070]"></div>
+            <Disclosure.Panel className="lg:hidden flex  w-full justify-end h-auto">
+              <div className="grid grid-rows h-auto min-h-screen space-y-3  justify-center p-3 bg-[#304051] dark:bg-[#405061]">
+                <Dropdown />
+              </div>
             </Disclosure.Panel>
           </>
         )}

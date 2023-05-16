@@ -18,10 +18,17 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  
 }
 
-.bg-main-red{
-  background: linear-gradient(180deg, rgba(156, 33, 36, 0.88) 0%, #9D2325 100%);
+.bg-main-red {
+  background: linear-gradient(180deg, rgba(156, 33, 36, 0.88) 0%, #9d2325 100%);
+}
 
+.animated-chevron {
+  transition: transform 0.3s ease;
+  rotate: 180deg;
+}
+
+.animated-chevron.open {
+  transform: rotate(-90deg);
 }
