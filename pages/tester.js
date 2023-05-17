@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex w-full  bg-white dark:bg-[#1e2e3f] h-full pt-[90px] px-10">
-      <div className=" w-full ">
+      {/* <div className=" w-full ">
         <div className="flex justify-center w-full">
           <span className="text-center text-[#1B2B3C] dark:text-white text-[50px]">
             {" "}
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
