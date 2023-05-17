@@ -32,3 +32,29 @@ body {
 .animated-chevron.open {
   transform: rotate(-90deg);
 }
+
+.mainCardsShadow {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.bg-red {
+  background: linear-gradient(
+    90deg,
+    rgba(160, 1, 0, 0.53) 0%,
+    rgba(157, 28, 30, 0.883333) 83.33%,
+    #9c2124 100%
+  );
+}
+
+.light .gradient-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(160, 1, 0, 0.53) 0%,
+    rgba(157, 28, 30, 0.883333) 83.33%,
+    #9c2124 100%
+  );
+}
+
+.dark .gradient-bg {
+  background-color: white;
+}

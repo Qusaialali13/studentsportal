@@ -10,7 +10,9 @@ export default function App({ Component, pageProps }) {
           <TopNav />
         </div>
         <div className="flex w-full min-h-screen h-full fixed top-[50px] lg:top-[60px]">
-          <Component {...pageProps} />
+          <div className="w-full max-w-[1605px]">
+            <Component {...pageProps} />
+          </div>
           <RightNav />
         </div>
       </ThemeProvider>
