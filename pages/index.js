@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="flex w-full  bg-white dark:bg-[#1e2e3f] h-full lg:first-letter pt-[20px] lg:pt-[60px] px-10 overflow-y-scroll">
+    <main className="flex w-full  bg-white dark:bg-[#1e2e3f] h-full lg:first-letter pt-[20px] lg:pt-[60px] px-10 overflow-y-scroll md:overflow-y-visible">
       <div className=" w-full ">
         <div className="flex justify-center w-full">
           <span className="text-center text-[#1B2B3C] dark:text-white text-[30px] lg:text-[50px]">
@@ -19,7 +19,7 @@ export default function Home() {
             الالكترونية بوابة الطالب الالكترونية بوابة الطالب الالكترونية
           </span>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 pb-16 gap-4">
           <div className="flex items-center justify-end w-full mainCardsShadow rounded-[10px]">
             <div className="flex w-full items-center justify-end pr-4 relative max-h-[110px]  h-[90px] lg:h-[110px] dark:border-l-[1px] dark:border-y-[1px] rounded-tl-[10px] rounded-bl-[10px] ">
               <span className="text-[#1B2B3C] dark:text-white text-[22px]">

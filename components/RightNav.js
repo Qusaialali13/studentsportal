@@ -11,11 +11,11 @@ import Dropdown from "./navItemDropdown";
 export default function RightNav() {
   return (
     <>
-      <Disclosure as="nav" className="fixed top-0 lg:right-0 z-10 ">
+      <Disclosure as="nav" className="fixed top-0 xl:right-0 z-10 ">
         {({ open }) => (
           <>
-            <div className="max-h-[60px] h-[50px] md:h-[60px] lg:h-full lg:min-h-screen bg-[rgb(24,40,57)] dark:bg-[#304051]  w-screen lg:w-[315px] lg:max-w-[315px]  ">
-              <div className=" flex lg:hidden h-full items-center px-2 justify-between">
+            <div className="max-h-[60px] h-[50px] md:h-[60px] xl:h-full xl:min-h-screen bg-[rgb(24,40,57)] dark:bg-[#304051]  w-screen xl:w-[315px] xl:max-w-[315px]  ">
+              <div className=" flex xl:hidden h-full items-center px-2 justify-between">
                 <ThemeToggler />
                 <div className="flex items-center gap-2">
                   <span className="text-base text-white">
@@ -97,7 +97,7 @@ export default function RightNav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="hidden lg:block">
+              <div className="hidden xl:block">
                 <div className="w-full flex items-center justify-center max-h-[70px] h-[60px] bg-[#304051] dark:bg-[#C87070]">
                   <span className="text-3xl ">HU&apos;s portal</span>
                 </div>
@@ -143,7 +143,7 @@ export default function RightNav() {
               </div>
             </div>
 
-            <Disclosure.Panel className="lg:hidden flex  w-full justify-end h-auto">
+            <Disclosure.Panel className="xl:hidden flex  w-full justify-end h-auto">
               <div className="grid grid-rows h-auto min-h-screen space-y-3  justify-center p-3 bg-[#304051] dark:bg-[#405061]">
                 <Dropdown />
               </div>
