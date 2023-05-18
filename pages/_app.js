@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
           <TopNav />
         </div>
         <div className="flex w-full min-h-screen h-full fixed top-[50px] xl:top-[60px]">
-          <div className="w-full xl:max-w-[78.5%] 2xl:max-w-[1605px]  h-full">
+          <div className="w-full xl:max-w-[78.5%] 2xl:max-w-[1605px]  h-full   bg-white dark:bg-[#1e2e3f] ">
             <Component {...pageProps} />
           </div>
           <RightNav />
