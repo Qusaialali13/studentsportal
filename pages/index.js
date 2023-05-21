@@ -27,7 +27,7 @@ export default function Home() {
               الالكترونية بوابة الطالب الالكترونية بوابة الطالب الالكترونية
             </span>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 pb-20 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 pb-20 gap-2 md:gap-4 ">
             <Link
               href="/"
               className="flex items-center justify-end w-full mainCardsShadow rounded-[10px] transition-transform hover:scale-[1.01]"
@@ -214,6 +214,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
+          <div className="h-8 w-full"></div>
         </div>
       </main>
     </>
