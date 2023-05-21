@@ -58,3 +58,11 @@ body {
 .dark .gradient-bg {
   background-color: white;
 }
+
+.light .loginBg {
+  background: white;
+}
+
+.dark .loginBg {
+  background: linear-gradient(180deg, #1e2e3f 56.99%, #344455 100%);
+}
