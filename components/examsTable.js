@@ -121,11 +121,10 @@ function Table() {
               <div className=" col-span-3 flex justify-center">
                 {/* className="text-neongreen  font-extrabold text-sm" */}
                 <span
-                  className={
-                    item.name > 5000
-                      ? "text-neongreen  font-extrabold  text-xs lg:text-sm"
-                      : "text-white  font-extrabold  text-xs lg:text-sm"
-                  }
+                  className="text-white  font-extrabold  text-xs lg:text-sm text-right"
+
+
+                  
                 >
                   {item.name}
                 </span>
