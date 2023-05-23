@@ -47,7 +47,7 @@ export default function NavItemDropdown() {
           <div className="grid rounded-none lg:w-full shadow-lg  dropdownContentBg p-3 gap-y-1.5">
             <Link
               href="/exams"
-              className="flex h-8 items-center gap-1 justify-end w-full text-sm  px-[30px]"
+              className="flex h-8 items-center gap-1 justify-end w-full text-xs md:text-sm text-right px-[30px]"
             >
               جدول الإمتحانات
               <svg
