@@ -100,7 +100,7 @@ function Table() {
               <div className="flex items-center lg:col-span-3 col-span-3 justify-center">
                 <span className="text-white  font-black text-sm">
                   <div className="flex w-full items-center ">
-                    <span className="font-bold text-xs lg:text-sm text-white text-right">
+                    <span className="font-bold text-xs lg:text-sm text-white text-center">
                       {" "}
                       {item.classRoom}
                     </span>
