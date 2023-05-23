@@ -46,31 +46,51 @@ export default function Pay() {
             </div>
           </div>
           <div className="grid grid-rows items-center w-full mt-10 gap-2">
-            <div className="flex items-center w-full justify-end gap-2">
+            <div className="flex 2xl:items-center w-full justify-end gap-2">
               <span className="text-black dark:text-white  text-sm lg:text-base text-right">
-                . على جميع الطلبة مراجعة موقع خدمات الطالب في بوابة الطالب
+                على جميع الطلبة مراجعة موقع خدمات الطالب في بوابة الطالب
                 الإلكترونية لمعرفة مواعيد إمتحاناتهم
               </span>
-              <div className="h-2.5 w-2.5 bg-[#C87070] rounded-full"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-2.5 w-2.5  fill-[#C87070]"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+              </svg>
             </div>
-            <div className="flex items-center w-full justify-end gap-2">
+            <div className="flex 2xl:items-center w-full justify-end gap-2">
               <span className="text-black dark:text-white  text-sm lg:text-base text-right">
-                . امتحانات المواد العملية والمختبرات ومواد التربية الوطنية
-                والعلوم العسكرية والطالب والجامعة واللغة العربية الاستدراكية
-                واللغة الانجليزية الاستدراكية واللغة العربية الاستدراكية ستعقد
-                من تاريخ 2023/5/28 إلى تاريخ 2023/5/31
+                امتحانات المواد العملية والمختبرات ومواد التربية الوطنية والعلوم
+                العسكرية والطالب والجامعة واللغة العربية الاستدراكية واللغة
+                الانجليزية الاستدراكية واللغة العربية الاستدراكية ستعقد من تاريخ
+                2023/5/28 إلى تاريخ 2023/5/31
               </span>
-              <div className="h-2.5 w-2.5 bg-[#C87070] rounded-full"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="lg:h-2.5 lg:w-2.5 h-6 w-6 fill-[#C87070]"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+              </svg>
             </div>
-            <div className="flex items-center w-full justify-end gap-2">
+            <div className="flex 2xl:items-center w-full justify-end gap-2">
               <span className="text-black dark:text-white  text-sm lg:text-base text-right">
-                . إذا صادف يوم عطلة أثناء فترة الإمتحانات تؤجل إمتحانات ذلك
-                اليوم إلى اليوم الذي يلي آخر أيام الإمتحانات
+                إذا صادف يوم عطلة أثناء فترة الإمتحانات تؤجل إمتحانات ذلك اليوم
+                إلى اليوم الذي يلي آخر أيام الإمتحانات
               </span>
-              <div className="h-2.5 w-2.5 bg-[#C87070] rounded-full"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-2.5 w-2.5  fill-[#C87070]"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+              </svg>
             </div>
           </div>
-          <div className="mt-10 pb-20">{/* <Table /> */}</div>
+          <div className="mt-10 pb-20">
+            <Table />
+          </div>
         </div>
       </main>
     </>

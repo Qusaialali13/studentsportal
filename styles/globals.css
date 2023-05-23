@@ -66,3 +66,10 @@ body {
 .dark .loginBg {
   background: linear-gradient(180deg, #1e2e3f 56.99%, #344455 100%);
 }
+
+.tableLightBG {
+  background-color: #1b2b3c;
+}
+.tableDarkBg {
+  background-color: #304051;
+}
