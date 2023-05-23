@@ -46,7 +46,7 @@ export default function NavItemDropdown() {
         <Menu.Items className="absolute flex justify-center mb-3 lg:mb-0 right-0 lg:right-auto hover:text-white text-black dark:text-white dark:fill-white fill-black hover:fill-white  rounded-none focus:outline-none z-50 w-full bg-[#D9D9D9] dark:bg-[#1B2B3C] py-34 hover:bg-[#304051] dark:hover:bg-[#304051]">
           <div className="grid rounded-none lg:w-full shadow-lg  dropdownContentBg p-3 gap-y-1.5">
             <Link
-              href="/pay"
+              href="/exams"
               className="flex h-8 items-center gap-1 justify-end w-full text-sm  px-[30px]"
             >
               دفع الرسوم المتفرقة

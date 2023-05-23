@@ -214,7 +214,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="h-10  w-full flex md:hidden"></div>
+          <div className="h-12  w-full flex md:hidden"></div>
         </div>
       </main>
     </>
