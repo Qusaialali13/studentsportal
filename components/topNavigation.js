@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TopNav() {
   return (
     <>
-      <div className="bg-main-red flex w-full max-w-[1605px] max-h-[70px] h-[60px] items-center justify-end pr-[20px] fixed top-0">
+      <div className="bg-main-red xl:flex w-full 2xl:max-w-[1605px] max-h-[70px] h-[60px] items-center xl:pr-[330px] 2xl:pr-[20px] justify-end  fixed top-0">
         <div className="items-center flex gap-3">
           <ThemeToggler />
           <div className="flex items-center gap-2">

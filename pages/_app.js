@@ -73,7 +73,7 @@ export default function App({ Component, pageProps }) {
                     </div>
                     <input
                       type="text"
-                      className="bg-transparent w-full mt-4 h-[40px] max-h-[46px] border border-[#9E2527] dark:border-white rounded-[7px] px-2"
+                      className="bg-transparent w-full mt-4 h-[40px] max-h-[46px] border border-[#9E2527] dark:border-white rounded-[7px] px-2 text-black dark:text-white"
                       required
                     />
                   </div>
@@ -85,7 +85,7 @@ export default function App({ Component, pageProps }) {
                     </div>
                     <input
                       type="password"
-                      className="bg-transparent w-full mt-4 h-[40px] max-h-[46px] border border-[#9E2527] dark:border-white rounded-[7px] px-2"
+                      className="bg-transparent w-full mt-4 h-[40px] max-h-[46px] border border-[#9E2527] dark:border-white rounded-[7px] px-2 text-black dark:text-white"
                       required
                     />
                   </div>

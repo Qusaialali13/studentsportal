@@ -14,7 +14,7 @@ export default function RightNav() {
       <Disclosure as="nav" className="fixed top-0 xl:right-0 z-10 ">
         {({ open }) => (
           <>
-            <div className="max-h-[60px] h-[50px] md:h-[60px] xl:h-full xl:min-h-screen bg-[rgb(24,40,57)] dark:bg-[#304051]  w-screen xl:w-[315px] xl:max-w-[315px]  ">
+            <div className="max-h-[60px] h-[50px] md:h-[60px] xl:h-full xl:min-h-screen bg-[rgb(24,40,57)] dark:bg-[#304051]    w-screen xl:w-[315px]   ">
               <div className=" flex xl:hidden h-full items-center px-2 justify-between">
                 <ThemeToggler />
                 <div className="flex items-center gap-2">
