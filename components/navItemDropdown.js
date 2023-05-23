@@ -49,7 +49,7 @@ export default function NavItemDropdown() {
               href="/exams"
               className="flex h-8 items-center gap-1 justify-end w-full text-sm  px-[30px]"
             >
-              جدول امتحانات الفصل الدراسي
+              جدول الإمتحانات
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
