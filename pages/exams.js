@@ -91,6 +91,7 @@ export default function Pay() {
           <div className="mt-10 pb-20">
             <Table />
           </div>
+<div className="h-12  w-full flex md:hidden"></div>
         </div>
       </main>
     </>
