@@ -148,7 +148,7 @@ export default function Home() {
               className="flex items-center justify-end w-full mainCardsShadow rounded-[10px] transition-transform hover:scale-[1.01]"
             >
               <div className="flex w-full items-center justify-end pr-4 relative max-h-[110px]  h-[90px] lg:h-[110px] dark:border-l-[1px] dark:border-y-[1px] rounded-tl-[10px] rounded-bl-[10px] ">
-                <span className="text-[#1B2B3C] dark:text-white text-[22px]">
+                <span className="text-[#1B2B3C] dark:text-white text-[22px] text-right">
                   {" "}
                   منصة الإمتحانات الإلكترونية
                 </span>
